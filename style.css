@@ -61,9 +61,13 @@ body {
     align-items: center;
     padding: 200px 20px;
     background-color: #f3f4f6;
-    background: url('./images/image-mockups.png')no-repeat top right, url('./images/bg-intro-desktop.svg') no-repeat top right;
+    background: url('./images/image-mockups.png') no-repeat, 
+                url('./images/bg-intro-desktop.svg') no-repeat;
+    background-position: top calc(100% - 40px) right calc(10% - 100px), 
+                         top calc(110% - 70px) right calc(10% - 100px); /* Adjust these values */
     /* background-size: cover; */
 }
+
 
 
 .landing-page .left-side {
